@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+body {
+font-family: 'Oregano', cursive;  
+margin: 0;
+background-image: url("images/img4.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.main-header{
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  padding: 0.1rem 0 1rem 0;
+  height: 15vh;
+  font-size: 2rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  opacity: 0.8;
+}
+
+.text-input {
+  width: 50%;
+  text-align: center;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: x-large;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* opacity: 0.75; */
+}
+
+
+.text-output {
+  height: 14vh;
+  width: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding:1rem;
+  border-radius: 1rem;
+  opacity: 0.75;
+}
+
+.label {
+  background-color: transparent;
+  color: red;
+  font-weight: bolder;
+  margin: 0 auto 1rem auto;
+  width: 20%;
+  min-width: auto;
+  min-height: auto;
+  text-align: center;
+  border-radius: 4rem;
+  font-size: x-large;
+  padding: 0.8rem;
+}
+
+#translate-btn {
+  background-color: transparent;
+  color: white;
+  border: 1.2px solid white;
+  font-family: 'Oregano', cursive;
+  font-size: x-large;
+  margin: 1rem 0 1.2rem 0;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 10rem;
+  font-weight:bolder;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-footer {
+  text-align: center;
+  background-color: transparent;
+  color: white;  
+  height: 180px;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  
+}
+
+.avatar-img {
+  border-radius: 50%;
+  max-width: 100px;
+  height: 100px;
+  background-color: transparent;
+
+}
